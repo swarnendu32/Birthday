@@ -1,0 +1,133 @@
+body
+{
+	background-color: #d54062;
+	text-align: center;
+}
+h1
+{
+	color: #f6f4e6;
+	margin-top: 15px;
+	font-family: 'Lobster Two', cursive;
+	font-size: 7rem;
+}
+.cont-img
+{
+	margin-right: 20px;
+	margin-top: 15px;
+	border-radius: 50%;
+	height: 700px;
+	width: 600px;
+	box-shadow: 2px 1px 2px 3px;
+}
+.testimonial
+{
+	margin-top: 100px;
+	opacity: 90%;
+}
+.testimonial_content
+{
+	font-family: 'Cuprum', sans-serif;
+	color: #f6f4e6;
+	font-size: 3rem;
+}
+.testimonial_img
+{
+	height: 500px;
+	width: 450px;
+	box-shadow: 2px 2px 2px 2px;
+	border-radius: 50%;
+}
+.cube
+{
+	width: 300px;
+	height: 300px;
+	margin: 15% auto;
+}
+.box-area
+{
+	animation: animate 10s ease-in-out- infinite;
+	transform-style: preserve-3d;
+	transform-origin: 150px 150px 0;
+}
+.box-area div
+{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	line-height: 300px;
+}
+.box-area .box1
+{
+	background-image: url(Ankita/IMG-20200726-WA0000.jpg);
+	border-radius: 10%
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	transform: translateZ(150px);
+}
+.box-area .box2
+{
+	background-image: url(Ankita/IMG-20200726-WA0009.jpg);
+	border-radius: 10%
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	transform: rotateY(90deg) translateZ(150px);
+}
+.box-area .box3
+{
+	background-image: url(Ankita/IMG-20200626-WA0022.jpg);
+	border-radius: 10%
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	transform: rotateY(90deg) rotateZ(90deg) translateZ(150px);
+}
+.box-area .box4
+{
+	background-image: url(Ankita/IMG-20200716-WA0010.jpg);
+	border-radius: 10%
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	transform: rotateY(180deg) rotateX(90deg) translateZ(150px);
+}
+.box-area .box5
+{
+	background-image: url(Ankita/IMG-20200716-WA0022.jpg);
+	border-radius: 10%
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	transform: rotateY(-90deg) rotateZ(90deg) translateZ(150px);
+}
+.box-area .box6
+{
+	background-image: url(Ankita/IMG-20200726-WA0007.jpg);
+	border-radius: 10%
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	transform: rotateX(-90deg) translateZ(150px);
+}
+@keyframes animate
+{
+	from,to
+	{
+		transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+	}
+	16%
+	{
+		transform: rotateY(-90deg);
+	}
+	33%
+	{
+		transform: rotateY(-90deg) rotateZ(90deg);
+	}
+}
+.conclude
+{
+	font-family: 'Cuprum', sans-serif;
+	color: #f6f4e6;
+	font-size: 3rem;	
+}
