@@ -45,7 +45,7 @@ h1
 }
 .box-area
 {
-	animation: animate 10s ease-in-out- infinite;
+	animation: animate 10s ease-in-out infinite;
 	transform-style: preserve-3d;
 	transform-origin: 150px 150px 0;
 }
@@ -59,8 +59,8 @@ h1
 .box-area .box1
 {
 	background-image: url(Ankita/IMG-20200726-WA0000.jpg);
-	border-radius: 10%
-	-webkit-background-size: cover;
+	border-radius: 10%;
+	background-size: cover;
 	background-size: cover;
 	background-position: center center;
 	transform: translateZ(150px);
@@ -68,8 +68,8 @@ h1
 .box-area .box2
 {
 	background-image: url(Ankita/IMG-20200726-WA0009.jpg);
-	border-radius: 10%
-	-webkit-background-size: cover;
+	border-radius: 10%;
+	background-size: cover;
 	background-size: cover;
 	background-position: center center;
 	transform: rotateY(90deg) translateZ(150px);
@@ -77,8 +77,8 @@ h1
 .box-area .box3
 {
 	background-image: url(Ankita/IMG-20200626-WA0022.jpg);
-	border-radius: 10%
-	-webkit-background-size: cover;
+	border-radius: 10%;
+	background-size: cover;
 	background-size: cover;
 	background-position: center center;
 	transform: rotateY(90deg) rotateZ(90deg) translateZ(150px);
@@ -86,8 +86,8 @@ h1
 .box-area .box4
 {
 	background-image: url(Ankita/IMG-20200716-WA0010.jpg);
-	border-radius: 10%
-	-webkit-background-size: cover;
+	border-radius: 10%;
+	background-size: cover;
 	background-size: cover;
 	background-position: center center;
 	transform: rotateY(180deg) rotateX(90deg) translateZ(150px);
@@ -95,8 +95,8 @@ h1
 .box-area .box5
 {
 	background-image: url(Ankita/IMG-20200716-WA0022.jpg);
-	border-radius: 10%
-	-webkit-background-size: cover;
+	border-radius: 10%;
+	background-size: cover;
 	background-size: cover;
 	background-position: center center;
 	transform: rotateY(-90deg) rotateZ(90deg) translateZ(150px);
@@ -104,8 +104,8 @@ h1
 .box-area .box6
 {
 	background-image: url(Ankita/IMG-20200726-WA0007.jpg);
-	border-radius: 10%
-	-webkit-background-size: cover;
+	border-radius: 10%;
+	background-size: cover;
 	background-size: cover;
 	background-position: center center;
 	transform: rotateX(-90deg) translateZ(150px);
